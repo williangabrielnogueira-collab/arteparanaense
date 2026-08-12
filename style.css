@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(25, 219, 41);
-    color:rgb(2, 3, 2);
+    background-color: #f4flea;
+    color:#222222;
     font-family: Arial, sans-serif;
 }
 
@@ -23,3 +23,29 @@ p   {
     line-height: 1.6;
 }
 
+main {
+      width: 80%;
+      margin: auto;
+}
+
+section {
+       background-color: white;
+       margin: 20px 0;
+       padding: 20px;
+       border-radius: 12px;
+}
+
+img {
+     width: 100%;
+     max-width: 600px;
+     display: block;
+     margin: auto;
+     border-radius: 12px;
+}
+
+figcaption {
+           text-align: center;
+           font-size: 14px;
+           color: #555555;
+           margin-top: 8px;
+}
