@@ -30,7 +30,7 @@ nav {
 nav a{
 color: aliceblue;
 text-decoration: none;
-background-color: rgb(216, 130, 26);
+background-color: rgb(25, 91, 100);
 padding: 10px 15px;
 border-radius: 8px;
 margin: 5px;
@@ -71,10 +71,10 @@ figcaption {
 }
 
 .card {
-    background-color: rgb(129, 80, 35);
+    background-color: rgb(192, 162, 30);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #d12020;
+    border-left: 6px solid #947612;
     border-radius: 10px;
 }
 
