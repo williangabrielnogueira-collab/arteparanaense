@@ -24,19 +24,22 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav {
     margin-top: 20px;
 }
-nav a{
-color: aliceblue;
-text-decoration: none;
-background-color: rgb(25, 91, 100);
-padding: 10px 15px;
-border-radius: 8px;
-margin: 5px;
-display: inline-block;
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(25, 91, 100);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
 }
-nav a :hover  {
+
+nav a :hover {
 
     background-color: rgb(9, 56, 40);
 }
@@ -88,4 +91,23 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: darkblue;
+    color: cadetblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.curtir{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
 }
