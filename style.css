@@ -10,13 +10,15 @@
     --cor-clara: rgb(255, 255, 255);
     --cor-rodape: rgb(3, 71, 68);
 }
-.tema-escuro{
---cor-fundo: #4c7973;
---cor-texto: rgb(53, 32, 32);
---cor-principal: rgb(0, 174, 255);
---cor-superficie: rgb(118, 122, 122);
---cor-card: rgb(88, 138, 196);
+
+.tema-escuro {
+    --cor-fundo: #4c7973;
+    --cor-texto: rgb(53, 32, 32);
+    --cor-principal: rgb(0, 174, 255);
+    --cor-superficie: rgb(118, 122, 122);
+    --cor-card: rgb(88, 138, 196);
 }
+
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -60,7 +62,7 @@ nav a {
 
 nav a :hover {
 
-    background-color:var(--cor-hover);
+    background-color: var(--cor-hover);
 }
 
 
@@ -96,7 +98,7 @@ figcaption {
     background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left:var(--cor-principal);
+    border-left: var(--cor-principal);
     border-radius: 10px;
     flex: 1 1 300px;
 }
@@ -107,15 +109,15 @@ figcaption {
 
 footer {
     background-color: var(--cor-rodape);
-    color:var(--cor-clara);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color:var(--cor-principal);
-    color:var(--cor-clara);
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -123,7 +125,7 @@ button {
 }
 
 button:hover {
-    background-color:var(--cor-hover);
+    background-color: var(--cor-hover);
 }
 
 .curtir {
@@ -131,25 +133,26 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
+
 .galeria {
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
-justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards-curiosidades {
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.btn-tema{
-position: fixed;
-right: 20px;
-bottom: 20px;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-font-size: 22px;
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
 }
