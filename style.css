@@ -11,10 +11,10 @@
     --cor-rodape: rgb(3, 71, 68);
 }
 .tema-escuro{
---cor-fundo: #7eb8b0;
+--cor-fundo: #4c7973;
 --cor-texto: rgb(53, 32, 32);
 --cor-principal: rgb(0, 174, 255);
---cor-superficie: rgb(95, 165, 159);
+--cor-superficie: rgb(118, 122, 122);
 --cor-card: rgb(88, 138, 196);
 }
 body {
