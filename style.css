@@ -13,9 +13,9 @@
 
 .tema-escuro {
     --cor-fundo: #4c7973;
-    --cor-texto: rgb(53, 32, 32);
-    --cor-principal: rgb(0, 174, 255);
-    --cor-superficie: rgb(118, 122, 122);
+    --cor-texto: rgb(247, 242, 242);
+    --cor-principal: rgb(12, 118, 240);
+    --cor-superficie: rgb(70, 80, 133);
     --cor-card: rgb(88, 138, 196);
 }
 
